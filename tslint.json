@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react"
+  ],
+  "rules": {
+    "jsx-boolean-value": false,
+    "function-name": [
+      true,
+      {
+        "function-regex": "\\w+$",
+        "method-regex": "\\w+$",
+        "private-method-regex": "/^[a-z$][\\w\\d]+$/",
+        "protected-method-regex": "/^[a-z$][\\w\\d]+$/",
+        "static-method-regex": "/^[a-z$][\\w\\d]+$/"
+      }
+    ]
+  }
+}

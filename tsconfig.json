@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "baseUrl": "app",
+    "paths": {
+
+    }
+  },
+  "include": [
+    "./app/**/*.ts",
+    "./app/**/*.tsx"
+  ]
+}
